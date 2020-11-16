@@ -6,7 +6,7 @@ namespace SocialNetwork
 {
     class Member:IMember
     {
-        public int Id { get; }
+        public int Id { get; set; }
         public IMemberProfile Profile { get; }
         public List<IMember> Friends { get; }
         public List<IMember> Pending { get; }

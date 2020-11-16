@@ -8,7 +8,7 @@ namespace SocialNetwork
     {
         public IMember AddMember(string name1, string name2, string city, string country);
         public IMember FindMemberById(int id);
-        public IEnumerable<IMember> FindMember(string search);
+        public List<IMember> FindMember(string search);
         public int MemberCount { get { return 0; } }
     }
 }
